@@ -1,0 +1,47 @@
+/* Header */
+
+
+/*Banner*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.headline{
+}
+.heading{
+    padding-top: 150px;
+    padding-right:150px ;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Seymour One', sans-serif;
+}
+.decription-head{
+    padding-right:150px ;
+    padding-left: 50%;
+    text-align: right;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn-primary{
+    background-color: rgb(231, 67, 7);
+    border-radius:10px ;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    box-shadow: 2px gray;
+    padding: 15px 30px;
+    float: right;
+    margin-right: 150px;
+}
