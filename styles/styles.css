@@ -13,6 +13,8 @@ header{
     background-image: url('../images/banner/banner2.png');
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 8px 8px 8px ;
+    
 } 
 
 .heading{
@@ -57,6 +59,8 @@ main{
 .first-section{
     display: flex;
     gap: 40px;
+    box-shadow: 8px 8px 8px ;
+
 }
 
 .heading-main{
@@ -87,18 +91,210 @@ main{
     font-size: 15px;
     color: rgb(0, 0, 0);
 }
+.plan-section{
+    box-shadow: 8px 8px 8px ;
+}
 
 .second-section-head{
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
     text-align: center;
     margin-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
+    
 }
 .second-section{
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
     gap: 50px;
+    
+    
 }
 .plan-description{
     text-align: center;
+    font-family: 'Seymour One', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.plan-elements .img-plan{
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+/* to make the alignment better on js icon */
+.plan-elements .img-plan1{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.plan-head{
+    padding-bottom:10px ;
+}
+
+
+/* third Section */
+ .third-section{
+    margin-top: 150px;
+    box-shadow: 8px 8px 8px ;
+ }
+ .image-academic{
+    display: flex;
+    gap: 50px;
+ }
+ 
+ .third-section .heading-main{
+    padding-top: 90px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .third-section li{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-style: italic;
+    font-family: 'Seymour One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.dropdown .btn-primary{
+    
+    background-color: #272323;
+   
+}
+  .dropdown .btn-primary:hover{
+    background-color:#272323;
+
+  }
+  
+  .dropdown-menu {
+    display: none;
+    background-color:#272323;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px #272323;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display:list-item;
+  }
+  
+  .dropdown-menu a {
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:20px 5px;
+  }
+  
+  .dropdown-menu a:hover {
+    
+    color: #272323;
+    background-color: #ddd;
+    
+  }
+
+  /* Fourth Section */
+ 
+  .fourth-section{
+    max-width: 700px;
+    max-height: 300px;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply color-dodge;
+
+  }
+
+
+ .head-fourth{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Work Sans';
+    font-style: italic;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+    color: #ddd;
+ }
+ .fourth-section .btn-primary{
+    padding: 10px 20px;
+    background-color:white;
+    color:rgb(247, 74, 12);
+    color: #F15B22;
+    float: left;
+    margin-left:30px ;
+    border-radius: 7px;
+    font-weight: 600;
+    text-shadow: 1px 0px 1px black;
+    
+ }
+ footer{
+    background-color:#151414 ;
+ }
+ .foot{
+    display: flex;
+    gap:150px;
+ }
+.footer-head{
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 180px;
+    padding-bottom: 30px;
+    color: #F8F8F8;
+
+
+}
+
+ .footer-description{
+
+    font-style: italic;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 16px;
+    color: #F8F8F8;
+    padding-left: 180px;
+    padding-bottom: 20px;
+    
+
+ }
+.email-taker{
+    padding: 10px 30px;
+    text-align: left;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 90px;
+
+}
+footer .btn-primary{
+    margin-top: 20px;
+    
+}
+.icons-footer{
+    margin-left:170px ;
+    display: flex;
+    gap: 15px;
+    
 }
